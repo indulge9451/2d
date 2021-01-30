@@ -35,7 +35,7 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
-			apiPath: "https://www.naosu.top/wp-content/themes/Sakurairo-master/live2d/2d_api",
+// 			apiPath: "https://www.naosu.top/wp-content/themes/Sakurairo-master/live2d/2d_api",
 			cdnPath: "https://cdn.jsdelivr.net/gh/indulge9451/2d/api/"
 
 		});
