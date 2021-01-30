@@ -1,6 +1,11 @@
 // 注意：live2d_path 参数应使用绝对路径
+<<<<<<< HEAD
 const live2d_path = "https://cdn.jsdelivr.net/gh/indulge9451/2d@master/live2d_load/";
 const tips_path = "https://cdn.jsdelivr.net/gh/indulge9451/2d@master/live2d_load/";
+=======
+const live2d_path = "https://cdn.jsdelivr.net/gh/Fog-Forest/cdn@2.1.5.5/Sakura/live2d/";
+// const tips_path = "https://cdn.jsdelivr.net/gh/Fog-Forest/cdn@2.1.5.5/Sakura/live2d/";
+>>>>>>> origin/master
 //const live2d_path = "";
 //const live2d_path = "/live2d-widget/";
 
@@ -34,8 +39,13 @@ function loadExternalResource(url, type) {
 	]).then(() => {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
+<<<<<<< HEAD
 			apiPath: "https://www.naosu.top/wp-content/themes/Sakurairo-master/live2d/2d_api",
 			cdnPath: "https://cdn.jsdelivr.net/gh/indulge9451/2d@master/api/"
+=======
+			apiPath: "https://api.amogu.cn/api/live2d/",
+			 cdnPath: "https://cdn.jsdelivr.net/gh/Fog-Forest/cdn@2.1.5.5/Sakura/live2d/api/"
+>>>>>>> origin/master
 		});
 	});
 console.log(`
